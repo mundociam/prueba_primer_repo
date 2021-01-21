@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+ .header img{
+    position: absolute;
+
+    width: 100%;
+    height: 220px;
+    top: 0px;
+    z-index: -1;
+    opacity: 80%;
+    
+
+    
+}
+.header #title{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px green;
+    
+}
+ .header #title:hover{
+     position: relative;   
+    font-size:60px;
+    text-align: left;
+    color: whitesmoke;
+    font-family: Georgia;
+    
+    
+    
+}
+.nav p{
+    border: 1px solid blue;
+    background: #0e6b63;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 40px;    
+    font-family:'Trebuchet MS';
+    text-shadow: 2px 2px 5px blue
+}
+.nav #logo{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    /*border-radius: 10px black;*/
+    left: 70%; 
+    
+}
+.aside{
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px blue;
+    width: 30%;
+    /*background: violet;*/
+    float: left;
+    margin-top: 20px;
+    text-decoration: underline;
+   
+}
+.aside li{
+    
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    margin: 10px;
+    height: 0%;
+    /*background-color: rgb(59, 31, 26);*/
+}
+a.one:link {
+    color:#ff0000;}
+a.one:visited {
+    color: blue;}
+a.one:hover {
+    font-size:150%;
+}
+.section{
+    
+    background: brown;
+    padding: 20px;
+    margin: center;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 10px;
+    position: relative;
+}
+.section  div {    
+    margin-top: 25px;
+    margin-bottom: auto;
+    color: #0984e3;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    animation: mymove 7s infinite;   
+    
+    width: 400px;
+    
+   
+    
+}   
+#div1 {
+    animation-timing-function: ;
+    color:blue;
+    text-shadow: #2d3436;
+}
+#div2 {
+    animation-timing-function: ;
+    color:blue;
+    text-shadow: #2d3436;
+}
+#div3 {
+    animation-timing-function: ;
+    color: blue;
+    text-shadow: #2d3436;
+}
+  
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+    
+}
+.section{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    width: 70%;
+    height: 950px;
+    float: right;
+    /*background: red;*/
+    
+}
+.section h2{
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.footer{
+    clear: both;/*hemos dicho que el contenido anterior al footer vuelva ala normalidad mateniendo los estilos*/
+    padding: 20px;
+    background: #2d3436;
+    color: #00cec9;
+    text-align: center;
+    width: 100%;
+    opacity: 85%;
+    clear: both;
+
+}
